@@ -9,10 +9,10 @@ function DoctorDetail() {
         <div className="max-w-lg mx-auto px-6 py-6">
             {doctor ?
                 (<div className='shadow-md rounded-lg max-w-md mx-auto p-6'>
-                                <button type='button' onClick={() => navigate(-1)} className='bg-gray-100 px-3 py-1 rounded text-sm mt-2' > Back </button>
+                    <button type='button' onClick={() => navigate(-1)} className='bg-gray-100 px-3 py-1 rounded text-sm mt-2' > Back </button>
 
                     <div className="w-24 h-24 text-4xl mx-auto rounded-full bg-blue-100 text-blue-600 font-bold text-xl flex items-center justify-center mb-3">
-{doctor.name.split(' ')[1][0]}                    </div>
+                        {doctor.name.split(' ')[1][0]}                    </div>
                     <h2 className="text-3xl font-bold text-gray-800 text-center mt-4">{doctor.name}</h2>
                     <div className="text-center mt-2">
                         <span className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm inline-block">
