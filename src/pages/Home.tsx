@@ -25,7 +25,8 @@ function Home() {
                             id={doctor.id}
                             name={doctor.name}
                             specialty={doctor.specialty}
-                            experience={doctor.experience} />
+                            experience={doctor.experience}
+                            available = {doctor.available} />
                     ))}
                 </div>)
             }
