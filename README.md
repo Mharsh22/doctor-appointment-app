@@ -20,7 +20,7 @@ A doctor appointment booking app built with React and TypeScript.
 
 ## Getting Started
 
-git clone https://github.com/Mharsh22/doctor-appointment-app.git
-cd doctor-appointment-app
-npm install
-npm run dev
+- git clone https://github.com/Mharsh22/doctor-appointment-app.git
+- cd doctor-appointment-app
+- npm install
+- npm run dev
