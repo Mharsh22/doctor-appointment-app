@@ -30,7 +30,7 @@ function Appointments() {
                         <p className="text-gray-500 text-sm">👤 Patient: {appointment.name}</p>
                         <p className="text-gray-500 text-sm">📅 {appointment.date}</p>
                         <p className="text-gray-500 text-sm">🕐 {appointment.time}</p>
-                        <button className="mt-4 text-sm text-red-500 border border-red-300 px-4 py-1 rounded-lg hover:bg-red-50 transition-colors">
+                        <button className="mt-4 text-sm text-red-500 border border-red-300 px-4 py-1 rounded-lg hover:bg-red-50 transition-colors" onClick={() => cancelAppointment(appointment.id)}>
                             Cancel
                         </button>
                     </div>
